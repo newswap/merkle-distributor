@@ -5,15 +5,19 @@ module.exports = async function (deployer, network, accounts) {
   // console.log("accounts[1]:"+accounts[1]);
   // console.log("accounts[2]:"+accounts[2]);
 
+  // const maintainer = "0x999e1B44a6702a169e631d399C43a442fAdB51D9"
   // const ZERO_BYTES32 = '0x0000000000000000000000000000000000000000000000000000000000000000'
-  // const maintainer = accounts[0]
 
   // await deployer.deploy(MerkleDistributor, maintainer, ZERO_BYTES32);
   // const distributor = await MerkleDistributor.deployed();
   // console.log("distributor:" + distributor.address);
+  // console.log("merkleRoot:"+ await distributor.merkleRoot())
+  // console.log("maintainer:" + await distributor.maintainer())
 
 
-  // testnet: 0x8F5f9f59c39F9Cb8D353CB25B8A0BD58e710cAa5
+
+  // testnet: 0xF8D9dc9BcD3E6bcbFDbd0F1132043BD0Ee730ae5
+  // devnet: 0x8F5f9f59c39F9Cb8D353CB25B8A0BD58e710cAa5
   // const distributor = await MerkleDistributor.at("0x8F5f9f59c39F9Cb8D353CB25B8A0BD58e710cAa5");
   // console.log("merkleRoot:"+ await distributor.merkleRoot())
   // console.log("maintainer:" + await distributor.maintainer())
